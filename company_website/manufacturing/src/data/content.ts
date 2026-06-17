@@ -78,7 +78,7 @@ export const standards: Standard[] = [
   {
     id: 'iso9001',
     icon: 'ISO',
-    image: 'https://images.unsplash.com/photo-1454165804603-c01164253a0c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80',
   },
   {
     id: 'iso14001',

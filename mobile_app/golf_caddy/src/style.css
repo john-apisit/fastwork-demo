@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-200 font-sans text-forest-900 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply rounded-xl bg-forest-700 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:bg-forest-800 active:scale-[0.98];
+  }
+
+  .btn-gold {
+    @apply rounded-xl bg-gold-500 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:bg-gold-600 active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply rounded-xl border border-forest-200 bg-white px-5 py-3 text-sm font-medium text-forest-700 transition hover:bg-forest-50 active:scale-[0.98];
+  }
+
+  .card {
+    @apply rounded-2xl bg-white shadow-card;
+  }
+
+  .section-title {
+    @apply font-display text-2xl font-semibold text-forest-900;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Hide scrollbar in mobile frame */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
